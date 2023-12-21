@@ -1,0 +1,18 @@
+.mainBlock{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 0;
+}
+
+.moreButton{
+    border-radius: 1.5rem;
+    background-color: #B31312;
+    border: 2px #3f3d43 solid;
+    padding: 1rem;
+    cursor: pointer;
+    color:#fff;
+}

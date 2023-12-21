@@ -1,0 +1,31 @@
+.cardBlock {
+    border-radius: 1.5rem;
+    background-color: #B31312;
+    border: 2px #3f3d43 solid;
+    padding: 1rem;
+    cursor: pointer;
+    flex: 0 0 calc(15% - 10px); 
+    box-sizing: border-box;
+    transition: all 500ms;
+}
+
+.cardBlock:hover {
+    transform: scale(1.05);
+}
+
+.namePokemon {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.sprite {
+    height: 70%;
+    width: 100%;
+    background: var(--fundo-gradiente);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border: var(--preto) 3px solid;
+    box-sizing: border-box;
+}

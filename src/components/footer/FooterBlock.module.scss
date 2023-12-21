@@ -1,0 +1,17 @@
+.footerBlock{
+    width: 100%;
+    height:17%;
+    background-color: #b31312;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding-bottom: 24px;
+}
+.footerLink{
+    background-image: url('../../assets/svg/pokemon-svgrepo-com.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}

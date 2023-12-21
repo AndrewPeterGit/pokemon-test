@@ -1,0 +1,119 @@
+.info {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    width: max-content;
+    padding: 2vh 3vw;
+    border-radius: 1.75rem;
+    border: 5px solid #202020;
+    color: #EEEEEE;
+    background-color: #B31312;
+}
+
+.info h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+    justify-content: center;
+}
+
+.list span {
+    font-size: 2rem;
+    height: auto;
+    text-transform: capitalize;
+    text-align: center;
+    list-style: none;
+    font-weight: 300;
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: #e2e4e8;
+}
+
+.divider {
+    width: 5px;
+    background-color: #202020;
+    height: auto;
+}
+
+.sprites {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    border: 5px solid #202020;
+    border-radius: 1.75rem;
+    padding: .5rem;
+    background: #e2e4e8;
+}
+
+.sprite {
+    min-height: 15vh;
+    min-width: 15vw;
+}
+
+.nameTitle {
+    font-size: 48px;
+    align-self: flex-start;
+}
+
+.backButton {
+    font-size: 32px;
+    align-self: flex-start;
+    cursor: pointer;
+    transition: all 250ms;
+
+}
+
+.backButton:hover{
+    transform: scale(1.05);
+}
+
+.stats {
+    padding: 2vh 4vw;
+}
+
+.titleStat {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.statsRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.statName {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #B31312;
+    padding-bottom: .25rem;
+    border-bottom: 4px solid #B31312;
+}
+
+.statVal {
+    font-size: 1.5rem;
+    color: var(--preto);
+}
+

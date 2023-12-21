@@ -1,0 +1,13 @@
+.type {
+    padding: .25rem .75rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 250ms;
+    color:#fff
+}
+
+.type:hover {
+    transform: scale(1.05);
+}
